@@ -77,7 +77,7 @@ int polynomial_regression(double x_points[], double y_points[] , int polynomial_
 
     //coeff
     for (int i = 0; i <= polynomial_degree; i++) {
-        solution[i] = Matrix_t_y[i] / Matrix_t_MAtrix[i][i];  // A simple, non-optimal way to find coefficients.
+        solution[i] = Matrix_t_y[i] / Matrix_t_MAtrix[i][i];
     }
 
     // Print coefficients
